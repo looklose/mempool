@@ -99,7 +99,7 @@ class StatisticsReplication {
       }
 
     } else {
-      logger.warn(`An error occured when trying to fetch /api/v1/statistics/${interval}`);
+      logger.warn(`An error occurred when trying to fetch /api/v1/statistics/${interval}`);
     }
 
     return { success, synced, missed: missed.size };

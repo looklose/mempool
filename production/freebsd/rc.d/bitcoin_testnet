@@ -51,7 +51,7 @@ load_rc_config ${name}
 : ${bitcoin_testnet_kill_after:="300"}
 : ${bitcoinlimits_args:="-e -U ${bitcoin_testnet_user}"}
 
-# set up dependant variables
+# set up dependent variables
 procname="${command}"
 required_files="${bitcoin_testnet_config_file}"
 pidfile="${bitcoin_testnet_data_dir}/testnet3/bitcoind.pid"

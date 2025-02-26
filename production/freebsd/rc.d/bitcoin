@@ -51,7 +51,7 @@ load_rc_config ${name}
 : ${bitcoin_kill_after:="600"}
 : ${bitcoinlimits_args:="-e -U ${bitcoin_user}"}
 
-# set up dependant variables
+# set up dependent variables
 procname="${command}"
 required_files="${bitcoin_config_file}"
 pidfile="${bitcoin_data_dir}/bitcoind.pid"

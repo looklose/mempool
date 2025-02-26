@@ -43,7 +43,7 @@ class BitcoinBackendRoutes {
   }
 
   /**
-   * Exeption handler to return proper details to the accelerator server
+   * Exception handler to return proper details to the accelerator server
    *
    * @param e
    * @param fnName
